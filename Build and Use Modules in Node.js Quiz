@@ -1,0 +1,59 @@
+1. Which of the following statements is true for package.json?
+Ans. All of the above
+
+2. Which of the following modules is required for network specific operations?
+Ans. net module
+
+3. Which of the following commands will show all the locally installed modules?
+Ans. npm ls
+
+4. Which of the following modules is required from Node.js to perform path operations?
+Ans. path module
+
+5. Which of the following options is an incorrect expression to expose a function in Node.js
+Ans. export function calculate(operation, lhs, rhs) {}
+
+6. Which of the following statements imports foo alone in the correct way?
+Ans. const { foo } = require ('./example.js');
+
+7. Which of the following statements is correct about modules?
+Ans. All of the above
+
+8. Which of the following classes is used to create the events and also consume them in Node.js?
+Ans. EventEmitter
+
+9. What does npm stand for?
+Ans. Node Package Manager
+
+10. In Node.js, third party module can be updated, deleted, or installed using ____________.
+Ans. Node Package Manager
+
+11. Single or multiple files organized in JavaScript having simple or complex functionality that can be reused throughout Node.js application are called _________.
+Ans. Module
+
+12. Which of the following statements is true for CommonJS modules?
+Ans. All of the above
+
+13. Which of the following statements is true for nodemon Module?
+Ans. The nodemon Module is a module that develops Node. js based applications by automatically restarting the node application.
+
+14. Which of the following code snippets will print the hostname ?
+Ans. os.hostname()
+
+15. How will you import any module in Node.js?
+Ans. using require() function
+
+16. Which of the following options are not in-built modules of Node.js?
+Ans. Lodash
+
+17. Lodash module is used for ________.
+Ans. Lodash contains tools to simplify programming with strings, numbers, arrays, functions and objects.
+
+18. Which of the following statements is true for Path Module?
+Ans. path.dirname() - Returns the directory part of a path
+
+19. Which of the following statements is true for node_modules?
+Ans. This acts as a cache for the external modules that the project depends upon. When  npm install is done, the packages get downloaded from the npm registry and are copied into the node_modules folder and Node.js looks for them when you import them.
+
+20. Which of the following statements is true for url module?
+Ans. Provides utilities for URL resolution and parsing.
