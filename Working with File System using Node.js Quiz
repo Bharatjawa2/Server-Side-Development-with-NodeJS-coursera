@@ -1,0 +1,59 @@
+1. Which of the following statements is true for EventEmitter.emit property?
+Ans. emit property is used to fire an event
+
+2. Which of the following statements is false about Streams?
+Ans. Only Asynchronous operations can be performed
+
+3. Which of the following methods of fs module is used to get information about a file?
+Ans. fs.stat(path, callback)
+
+4. Which of the following methods of fs module is used to read  a directory?
+Ans. fs.readdir(path, callback)
+
+5. Which of the following statements is true for File I/O operations in Node application?
+Ans. To work with File I/O fs module needs to be imported
+
+6. Which of the following statements is true for EventEmitter.on property?
+Ans. on property is used to bind a function with the event
+
+7. Which of the following fs module methods is used to close the file?
+Ans. fs.close(fd, callback)
+
+8. Which of the following events is not supported by Readable Streams in NodeJS?
+Ans. Event  cork
+
+9. Which of the following is a benefit of using Stream processing?
+Ans. All of the above
+
+10. Which of the following API methods is not supported for EventEmitter?
+Ans. emitter.observe
+
+11. Which of the following Classes is used to implement NodeJS Streams?
+Ans. EventEmitters
+
+12. Which of the following types of stream is not supported in NodeJS?
+Ans. None of the above
+
+13. Which of the following statements is false for Buffer class?
+Ans. The Buffer object is a global object in NodeJS, and it is not necessary to import it using the require keyword.
+
+14. Which of the following scenarios is possible using Streams?
+Ans. All of the above
+
+15. Which of the following events is not supported by Writable Streams in NodeJS?
+Ans. Event  data
+
+16. Which of the following classes is used to create custom event in NodeJS?
+Ans. EventEmitter
+
+17. Which of the following scenarios makes the best or ideal case for using NodeJS?
+Ans. All of the above
+
+18. Which of the the following methods appends specified content to a file?
+Ans. fs.appendFile()
+
+19. Which of the following modules is used to implement custom stream?
+Ans. require('stream')
+
+20. Which of the folloiwng methods can be used to read a file asynchronously?
+Ans. fs.readFile( filename, encoding,callback )
