@@ -1,0 +1,65 @@
+1. A function with no return value is called__________function.
+Ans. Procedure
+
+2. What will be the output of a return statement if it does not have an associated expression?
+Ans. It returns the undefined value.
+
+3. When can we describe a function as optional in JavaScript?
+Ans. When function is defined as expressions
+
+4. Do all the JavaScript functions return a value?
+Ans. Few functions return value by default
+
+5. What will be the output of the following code snippet? function ab(){ console.log("inside "); } console.log(typeof ab);
+Ans. Function
+
+6. What will be the output of the given code snippet? var square = function ab( x ) { x++; return x * x ; }; console.log ( ab (5) ); console.log ( square (12) );
+Ans. undefined 169
+
+7. What will be the output of the given code snippet? console.log ( square (6) ); var square = function ab( x ) { return x * x ; };
+Ans. square is not a function
+
+8. What will be the output of the following code snippet? ab (12) ; function ab( ) { return x * x ; }
+Ans. x is not defined
+
+9. What will be the output of function if printed? var make Noise = function () { console.log (" Pling !") ; }; make Noise();
+Ans. variable name should not contain space : error line 1
+
+10. What will be the output of the following code snippet? function(){ console.log("inside"); } function();
+Ans. Error at line 1
+
+11. What will be the output of the following code snippet? var f = function (x){ console.log("inside function " + x); }; f(12); console.log(x);
+Ans. inside function 12 x is not defined
+
+12. What will be the output of the following code snippet? var x = function ( a ,b ) { var result = 1; for ( var count = 0; count ```< b ; count ++) result *= a; return result; }; console.log ( x (2 , 10) ) ;
+Ans. 1024
+
+13. Predict the output of the following program: var carMakes =  ; console.log('Old array : ' +carMakes.join()); carMakes.splice(2,1, 'ALPHA-ROMEO'); console.log('New array : ' +carMakes.join());
+Ans. Old array : BMW,AUDI,TOYOTA,SUZUKI New array : BMW,AUDI,ALPHA-ROMEO,SUZUKI
+
+14. Predict the output of the following program: var carMakes =  ; console.log('Old array : ' +carMakes.join()); carMakes.splice(2,1); console.log('New array : ' +carMakes.join());
+Ans. Old array : BMW,AUDI,TOYOTA,SUZUKI New array : BMW,AUDI,SUZUKI
+
+15. Predict the output of the following program: var carMakes =  ; console.log('Old array : ' +carMakes.join()); carMakes.sort(); console.log('Sorted array : ' +carMakes.join());
+Ans. Old array : BMW,AUDI,TOYOTA,SUZUKI Sorted array : AUDI,BMW,SUZUKI,TOYOTA
+
+16. Predict the output of the following program: var carMakes =  ; console.log('Old array : ' +carMakes.join()); carMakes.sort(); carMakes.reverse(); console.log('Array in reverse order: ' +carMakes.join());
+Ans. Old array :   Array in reverse order: 
+
+17. What will be the output of the following code snippet? var a1 =  ; var a2 = new Array(3); 0 in a1 ; 0 in a2;
+Ans. false false
+
+18. Which of the following statements defines the pop() method?
+Ans. Decrements the total length by 1
+
+19. What happens if the reverse() and the join() methods are used simultaneously ?
+Ans. Reverses and stores in the same array
+
+20. Predict the output of the following program: var a =  ; a.slice(0,3);
+Ans. Returns [1,2,3]
+
+21. Predict the final output of the following program: var a =  ; a.unshift(1); a.unshift(22); a.shift(); a.unshift(3, ); a.shift(); a.shift(); a.shift();
+Ans. 1
+
+22. What is the use of array map() function?
+Ans. Passes each element of the array on which it is invoked to the function you specify, and returns an array containing the values returned by that function.
