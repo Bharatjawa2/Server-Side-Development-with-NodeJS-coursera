@@ -1,0 +1,60 @@
+1. Each function of a JavaScript program will be pushed onto the _______________  in the order of calling.
+Ans. call stack
+
+2. JavaScript is _______________  by default.
+Ans. synchronous
+
+3. What are Control Structures for Asynchronous Programming?
+Ans. callbacks, promises, async await
+
+4. A call back method always takes ___________ as the first parameter.
+Ans. error
+
+5. A callback function is a function passed into another function as a ________________.
+Ans. argument
+
+6. NodeJS retrieves any incoming request and adds them to the ___________.
+Ans. Callback queue
+
+7. The Event Loop processes _______________ requests.
+Ans. Non-blocking
+
+8. Each _________ of the event loop maintains a separate callback queue.
+Ans. phase
+
+9. ________________ is a timer callback.
+Ans. setTimeout()
+
+10. The _____________ queue is for resolving promises.
+Ans. microtasks
+
+11. Each time the event loop takes a full trip completing all the phases, it is called a __________.
+Ans. tick.
+
+12. A Promise is said to be in pending state when ______________.
+Ans. the asynchronous operation is not yet complete
+
+13. ______________ is a callback that will eventually receive the fulfillment value of the Promise.
+Ans. onFulfilled
+
+14. What will be the output of the following code snippet ?
+Ans. error - both resolve and reject in same block
+
+15. What will be the output of the following code snippet ?
+Ans. Prints the current time in hh:mm:ss continuously after every 1 second
+
+16.vAn async function returns a ___________.
+Ans. promise
+
+17. ______________________ helps you define a list of promises, and execute something when they are all resolved.
+Ans. Promise.all()
+
+18. What is the output of the below code ?
+Ans. before, after
+
+19. ________________ use promises behind the scenes.
+Ans. async functions
+
+20. Debugging __________________ is hard because the debugger will not step over asynchronous code.
+Ans. callback functions
+
