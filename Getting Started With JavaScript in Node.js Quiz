@@ -1,0 +1,62 @@
+1. What is the use of the Underscore Variable in REPL session?
+Ans. To get the last result.
+
+2. Node.js is a ___________________ language.
+Ans. server side
+
+3. Node.js = ___________________ + ______________________.
+Ans. Runtime Environment + The JavaScript Library
+
+4. The v8 engine works inside the _____________ of the browser.
+Ans. DOM context
+
+5. All APIs of Node.js libraries are _______________.
+Ans. asynchronous
+
+6. ___________ is the package manager for Node.
+Ans. npm
+
+7. _________________ is a Node.js component.
+Ans. Node CLI
+
+8. Asynchronous Jobs run on ___________ threads.
+Ans. worker
+
+9. Node.js is not suited for _________________  since it is single threaded.
+Ans. CPU intensive operations
+
+10. Variables are _____________ for storing data.
+Ans. containers
+
+11. The const declaration creates a ____________  reference to a value.
+Ans. read-only
+
+12. What is the output of the code snippet given below? console.log(age)
+    var age = 30
+    console.log(age) ?
+Ans. 30
+
+13. The process object is a __________ object.
+Ans. global
+
+14. Command line arguments can be accessed through the ________________ functionality.
+Ans. process.argv
+
+15. The "function" and " var" are known as ________.
+Ans. declaration keywords
+
+16. In the following syntax of the switch statement, the Expression is compared with the labels using which of the following operators? switch(expression) { statements }
+Ans. "==="
+
+17. What is the output of the code snippet given below? var count =0; while (count ```<10) { console.log(count); count++; }
+Ans. Prints values from 0 to 9
+
+18. What is the output of the code snippet given below? var stringValue = "40"; var intValue = 50; console.log( stringValue + intValue);
+Ans. 4050
+
+19. What is the output of the code snippet given below? var x = 0 while (x != 0) { if(x == 1) continue; else x++; }
+    console.log(x)
+Ans. 0
+
+20. What is the output of the code snippet given below? var a=0; var b =0; while (a ```<3) { a++; b += a; console.log(b); }
+Ans. 1,3,6
