@@ -1,0 +1,59 @@
+1. What are the types of errors that can occur in a Node.js application?
+Ans. Operational and Logical Errors
+
+2. System out of memory is a ___________ error
+Ans. Operational
+
+3. The JS environment does not detect a __________ error
+Ans. Logical
+
+4. ReferenceError is a ___________ error
+Ans. Standard JS Error
+
+5. Errors in Node.js are handled through _____________
+Ans. Exceptions
+
+6. To throw an Error object explicitly we use the ____________  keyword
+Ans. throw
+
+7. The try block contains the ___________ code that can throw an error
+Ans. critical
+
+8. _____________ is not a constructor of the Error class
+Ans. new Error(filename)
+
+9. Synchronous APIs will use ________________ to report errors implicitly
+Ans. throw
+
+10. An async functions can have _______________ blocks
+Ans. try..catch
+
+11. What command is used to run the inbuilt debugger ?
+Ans. node inspect <name of the .js file> <parameters>
+
+12. The _____________ statement is attached in the program to invoke the inbuilt debugger through running the inspect command.
+Ans. debugger
+
+13. ________________ is a place in the program where the execution is stopped by the debugger
+Ans. Breakpoint
+
+14. ____________ window is used to observe more than one variable
+Ans. Watch
+
+15._____________________ serves as a means to monitor, observe and optimize software development
+Ans. Software Diagnosis
+
+16. ___________________ is a tool that is built into the Node.js core
+Ans. Diagnostic Report
+
+17. The diagnostics report can be written to a __________ file
+Ans. .json
+
+18. The _____________ object helps to generate the diagnosis report.
+Ans. process
+
+19. _____________________ triggers diagnostic reporting on fatal errors when true
+Ans. reportOnFatalError
+
+20. The ____________ terminal is used to execute code in the debug mode in Node.js
+Ans. Javascript debugger
